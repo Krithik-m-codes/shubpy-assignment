@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Product Showcase Web Application
 
-## Getting Started
+Create a responsive web application that showcases a collection of products with filtering, sorting, and detailed views.
 
-First, run the development server:
+Requirements:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Use a mock API like JSON Placeholder or create a local JSON file with product data (10-15 items).  
+- Each product should include:  
+  - id  
+  - name
+  - category
+  - price
+  - image URL
+  - description
+  - rating
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features:  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Display products in a grid/list view with cards.  
+- Filter products by category and price range.  
+- Sort products by price (high-to-low / low-to-high) and rating.  
+- Implement a product detail view (when clicking on a product).  
+- Add a simple shopping cart functionality (add/remove items).  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Acceptance Criteria:
 
-## Learn More
+- Build the application using React (Next.js preferred for Vercel deployment).  
+- Use CSS/SCSS or a component library (Tailwind, MUI, etc.).  
+- Ensure a responsive design (mobile, tablet, desktop).  
+- Implement state management (React Context or Redux).  
+- Include basic loading states and error handling.  
 
-To learn more about Next.js, take a look at the following resources:
+Submission Details:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Complete the task within 2 days.  
+- Push the code to GitHub and share the repository link.  
+- Deploy the application on Vercel and share the deployment link.
