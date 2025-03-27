@@ -111,14 +111,4 @@ The application is configured for easy deployment on Vercel:
 - `lint`: Runs ESLint
 - `format`: Formats code with Prettier
 
-## Screenshots
-
-(Include screenshots of your application here if available)
-
-## Live Demo
-
-[View the live demo on Vercel](your-vercel-deployment-url)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+## Thank you
