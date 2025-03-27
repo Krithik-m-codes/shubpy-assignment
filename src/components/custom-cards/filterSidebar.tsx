@@ -15,8 +15,8 @@ const FilterSidebar: React.FC = () => {
     const priceRange = useMemo(() => {
         if (products.length === 0) return { min: 0, max: 1000 };
 
-        let min = Math.floor(products.reduce((min, p) => p.price < min ? p.price : min, Infinity));
-        let max = Math.ceil(products.reduce((max, p) => p.price > max ? p.price : max, 0));
+        const min = Math.floor(products.reduce((min, p) => p.price < min ? p.price : min, Infinity));
+        const max = Math.ceil(products.reduce((max, p) => p.price > max ? p.price : max, 0));
 
         return { min, max };
     }, [products]);

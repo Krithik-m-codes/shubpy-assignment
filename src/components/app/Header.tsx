@@ -16,7 +16,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-gray-800">
-            E-Shop
+            Rider&apos;s Den
           </Link>
 
           <nav className="hidden md:flex space-x-6">
@@ -25,9 +25,6 @@ const Header: React.FC = () => {
             </Link>
             <Link href="/products" className="text-gray-600 hover:text-gray-900">
               Products
-            </Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900">
-              About
             </Link>
           </nav>
 

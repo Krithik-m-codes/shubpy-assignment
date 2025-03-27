@@ -57,8 +57,6 @@ export const ShopProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        // Using fetch for client-side data loading
-        // In Next.js App Router, we could use server components instead
         const response = await fetch('/api/get-products');
         if (!response.ok) {
           throw new Error('Failed to fetch products');

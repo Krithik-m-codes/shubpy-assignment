@@ -1,7 +1,7 @@
-// components/CartSidebar.tsx
 import React from 'react';
 import { X, Minus, Plus, Trash2 } from 'lucide-react';
 import { useShop } from '@/context/store-context';
+import Image from 'next/image';
 
 interface CartSidebarProps {
     isOpen: boolean;
@@ -45,7 +45,9 @@ const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose }) => {
                             {cart.map(item => (
                                 <li key={item.id} className="flex border-b pb-4">
                                     <div className="h-20 w-20 flex-shrink-0 overflow-hidden rounded-md">
-                                        <img
+                                        <Image
+                                            width={80}
+                                            height={80}
                                             src={item.image}
                                             alt={item.name}
                                             className="h-full w-full object-cover"

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "E-Shop | Online Store",
+  title: "Rider's Den | Online Store",
   description: "Browse our collection of high-quality products",
 };
 

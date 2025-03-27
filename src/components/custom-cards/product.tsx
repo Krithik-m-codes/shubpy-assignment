@@ -1,4 +1,3 @@
-// components/ProductCard.tsx
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -17,7 +16,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <Link href={`/products/${product.id}`}>
                 <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-200">
-                    <img
+                    <Image
+                        width={300}
+                        height={300}
                         src={product.image}
                         alt={product.name}
                         className="w-full h-64 object-cover"
@@ -46,7 +47,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 </p>
 
                 <div className="flex items-center justify-between">
-                    <span className="text-lg font-bold text-gray-900">${product.price.toFixed(2)}</span>
+                    <span className="text-lg font-bold text-gray-900">₹{product.price.toFixed(2)}</span>
 
                     <button
                         onClick={() => addToCart(product)}

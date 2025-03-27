@@ -41,7 +41,7 @@
       "name": "Bluetooth Intercom",
       "category": "Electronics",
       "price": 149.99,
-      "image": "https://images.unsplash.com/photo-1588942974468-f6b3e6a9b48f",
+      "image": "https://images.unsplash.com/photo-1560994659-a537e1f85979?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZXRvb3RoJTIwaW50ZXJjb20lMjBoZWxtZXR8ZW58MHx8MHx8fDA%3D",
       "description": "Motorcycle helmet communication system with 1-mile range and 15-hour battery life.",
       "rating": 4.4
     },
@@ -50,7 +50,7 @@
       "name": "Motorcycle Chain Lube",
       "category": "Maintenance",
       "price": 12.99,
-      "image": "https://images.unsplash.com/photo-1603802448546-111acb7d82c0",
+      "image": "https://images.unsplash.com/photo-1737466724986-d323aa604b27?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW90b3JjeWNsZSUyMGNoYWlufGVufDB8fDB8fHww",
       "description": "Premium chain lubricant for all weather conditions with anti-fling formula.",
       "rating": 4.3
     },
@@ -86,7 +86,7 @@
       "name": "Motorcycle Tank Bag",
       "category": "Accessories",
       "price": 79.99,
-      "image": "https://images.unsplash.com/photo-1558980395-be11a36c3f44",
+      "image": "https://images.unsplash.com/photo-1541536919600-cb40f11f74b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW90b3JjeWNsZSUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D",
       "description": "Magnetic tank bag with clear smartphone compartment and expandable storage.",
       "rating": 4.3
     },
@@ -95,7 +95,7 @@
       "name": "Modular Helmet",
       "category": "Helmets",
       "price": 279.99,
-      "image": "https://images.unsplash.com/photo-1600705722908-bbc52ab2a081",
+      "image": "https://images.unsplash.com/photo-1583912736562-6086dedde74b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW90b3JiaWtlJTIwaGVsbWV0fGVufDB8fDB8fHww",
       "description": "Flip-up modular helmet with integrated sun visor and Bluetooth compatibility.",
       "rating": 4.7
     },
@@ -104,7 +104,7 @@
       "name": "Motorcycle GPS",
       "category": "Electronics",
       "price": 349.99,
-      "image": "https://images.unsplash.com/photo-1581093458791-9d09da40a48f",
+      "image": "https://images.unsplash.com/photo-1594319172182-138894385721?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW90b3JjeWNsZSUyMGdwc3xlbnwwfHwwfHx8MA%3D%3D",
       "description": "Weatherproof motorcycle GPS with glove-friendly display and lifetime map updates.",
       "rating": 4.6
     }

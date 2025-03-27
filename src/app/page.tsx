@@ -3,14 +3,12 @@ import React, { useMemo } from 'react';
 import Link from 'next/link';
 import { useShop } from '@/context/store-context';
 import ProductCard from '@/components/custom-cards/product';
-import { Loader } from 'lucide-react';
+import { Loader, ArrowRight } from 'lucide-react';
 
 const Home: React.FC = () => {
   const { products, loading, error } = useShop();
 
-  // Get featured products (top rated ones)
   const featuredProducts = useMemo(() => {
-    // Check if products exists and is an array before operating on it
     if (!products || !Array.isArray(products) || products.length === 0) {
       return [];
     }
@@ -23,13 +21,13 @@ const Home: React.FC = () => {
   return (
     <div>
       {/* Hero section */}
-      <div className="relative bg-gray-900 text-white py-16 px-4 rounded-xl mb-12">
+      <div className="relative  text-black py-16 px-4 rounded-xl mb-12 flex justify-center items-center">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold mb-4">Motorcycle Riding Essentials</h1>
-          <p className="text-gray-300 mb-6">Discover our premium collection of gear and accessories for every rider.</p>
+          <p className="text-gray-700 mb-6">Discover our premium collection of gear and accessories for every rider.</p>
           <Link
             href="/products"
-            className="inline-block bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
+            className="inline-block bg-amber-400 text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-amber-600 transition-colors"
           >
             Shop Now
           </Link>
@@ -40,8 +38,8 @@ const Home: React.FC = () => {
       <div className="mb-12">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-bold">Featured Gear</h2>
-          <Link href="/products" className="text-blue-600 hover:text-blue-800">
-            View All →
+          <Link href="/products" className="text-blue-600 hover:text-blue-800 flex items-center">
+            View All <span> <ArrowRight size={24} /> </span>
           </Link>
         </div>
 

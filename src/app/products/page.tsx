@@ -4,6 +4,7 @@ import { useShop } from '@/context/store-context';
 import ProductCard from '@/components/custom-cards/product';
 import FilterSidebar from '@/components/custom-cards/filterSidebar';
 import { Loader } from 'lucide-react';
+import { SortOption } from '@/types/common-types';
 
 const ProductsPage: React.FC = () => {
     const { filteredProducts, loading, error, sortOption, updateSort } = useShop();
@@ -41,7 +42,7 @@ const ProductsPage: React.FC = () => {
                         <select
                             id="sort"
                             value={sortOption}
-                            onChange={(e) => updateSort(e.target.value as any)}
+                            onChange={(e) => updateSort(e.target.value as SortOption)}
                             className="border border-gray-300 rounded-md py-1 pl-3 pr-10 text-sm"
                         >
                             <option value="price-low-to-high">Price: Low to High</option>

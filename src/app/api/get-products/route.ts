@@ -1,7 +1,7 @@
 import path from "path";
 import { promises as fs } from "fs";
 
-export async function GET(request: Request) {
+export async function GET() {
   try {
     // Read the JSON file from the data directory
     // join the current working directory with the path to the data directory
