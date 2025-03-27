@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Full-Face Helmet",
+      "category": "Helmets",
+      "price": 249.99,
+      "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39",
+      "description": "Premium DOT-certified full-face helmet with advanced ventilation and anti-fog visor.",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Motorcycle Jacket",
+      "category": "Apparel",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1591213954196-2d0ccb3f8d4c",
+      "description": "Abrasion-resistant motorcycle jacket with CE-approved armor and waterproof lining.",
+      "rating": 4.6
+    },
+    {
+      "id": 3,
+      "name": "Riding Gloves",
+      "category": "Apparel",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
+      "description": "Touchscreen-compatible leather riding gloves with knuckle protection and reinforced palms.",
+      "rating": 4.5
+    },
+    {
+      "id": 4,
+      "name": "Motorcycle Boots",
+      "category": "Footwear",
+      "price": 189.99,
+      "image": "https://images.unsplash.com/photo-1605812860427-4024433a70fd",
+      "description": "Waterproof motorcycle boots with ankle protection and oil-resistant soles.",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Intercom",
+      "category": "Electronics",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1588942974468-f6b3e6a9b48f",
+      "description": "Motorcycle helmet communication system with 1-mile range and 15-hour battery life.",
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "name": "Motorcycle Chain Lube",
+      "category": "Maintenance",
+      "price": 12.99,
+      "image": "https://images.unsplash.com/photo-1603802448546-111acb7d82c0",
+      "description": "Premium chain lubricant for all weather conditions with anti-fling formula.",
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "name": "Riding Pants",
+      "category": "Apparel",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+      "description": "Kevlar-reinforced riding jeans with removable knee and hip armor.",
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "name": "Tire Pressure Gauge",
+      "category": "Maintenance",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1613214149922-f1809c99b414",
+      "description": "Digital tire pressure gauge with backlit display and multiple pressure units.",
+      "rating": 4.2
+    },
+    {
+      "id": 9,
+      "name": "Motorcycle Cover",
+      "category": "Accessories",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87",
+      "description": "All-weather motorcycle cover with lock holes and heat-resistant panels.",
+      "rating": 4.4
+    },
+    {
+      "id": 10,
+      "name": "Motorcycle Tank Bag",
+      "category": "Accessories",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1558980395-be11a36c3f44",
+      "description": "Magnetic tank bag with clear smartphone compartment and expandable storage.",
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "name": "Modular Helmet",
+      "category": "Helmets",
+      "price": 279.99,
+      "image": "https://images.unsplash.com/photo-1600705722908-bbc52ab2a081",
+      "description": "Flip-up modular helmet with integrated sun visor and Bluetooth compatibility.",
+      "rating": 4.7
+    },
+    {
+      "id": 12,
+      "name": "Motorcycle GPS",
+      "category": "Electronics",
+      "price": 349.99,
+      "image": "https://images.unsplash.com/photo-1581093458791-9d09da40a48f",
+      "description": "Weatherproof motorcycle GPS with glove-friendly display and lifetime map updates.",
+      "rating": 4.6
+    }
+  ]
+}
