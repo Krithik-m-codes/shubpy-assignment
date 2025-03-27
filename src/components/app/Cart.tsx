@@ -57,7 +57,7 @@ const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose }) => {
                                     <div className="ml-4 flex flex-1 flex-col">
                                         <div className="flex justify-between text-base font-medium text-gray-900">
                                             <h3>{item.name}</h3>
-                                            <p className="ml-4">${(item.price * item.quantity).toFixed(2)}</p>
+                                            <p className="ml-4">₹{(item.price * item.quantity).toFixed(2)}</p>
                                         </div>
 
                                         <div className="flex items-center mt-2">
@@ -92,7 +92,7 @@ const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose }) => {
                 <div className="border-t p-4">
                     <div className="flex justify-between text-base font-medium text-gray-900 mb-4">
                         <p>Subtotal</p>
-                        <p>${totalPrice.toFixed(2)}</p>
+                        <p>₹{totalPrice.toFixed(2)}</p>
                     </div>
                     <button
                         className="w-full bg-gray-900 text-white py-3 px-4 rounded-md hover:bg-gray-800"

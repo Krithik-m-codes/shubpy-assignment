@@ -66,8 +66,8 @@ const FilterSidebar: React.FC = () => {
                 <h3 className="text-sm font-medium text-gray-700 mb-2">Price Range</h3>
                 <div className="space-y-4">
                     <div className="flex justify-between">
-                        <span className="text-xs text-gray-500">${filterOptions.priceRange.min}</span>
-                        <span className="text-xs text-gray-500">${filterOptions.priceRange.max}</span>
+                        <span className="text-xs text-gray-500">₹{filterOptions.priceRange.min}</span>
+                        <span className="text-xs text-gray-500">₹{filterOptions.priceRange.max}</span>
                     </div>
 
                     <div className="flex space-x-4">
